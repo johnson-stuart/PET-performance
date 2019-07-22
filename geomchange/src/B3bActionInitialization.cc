@@ -56,10 +56,8 @@ void B3bActionInitialization::BuildForMaster() const
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void B3bActionInitialization::Build() const
-{
+{ 
   B3bRunAction* runAction = new B3bRunAction();
-  B3PrimaryGeneratorAction* gun = new B3PrimaryGeneratorAction();
-  SetUserAction(gun);
   SetUserAction(runAction);
   SetUserAction(new B3bEventAction(runAction));
   SetUserAction(new B3StackingAction);

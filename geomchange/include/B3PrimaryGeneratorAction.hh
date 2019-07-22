@@ -53,13 +53,15 @@ class B3PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
 	
 	void SetPosition(G4ThreeVector set_position);
 	
-	const G4ParticleGun* GetParticleGun() const { return fParticleGun; }
+	const G4ParticleGun* GetParticleGun() const { return fParticleGun1; }
     
   private:
   B3PrimaryGeneratorAction & operator=(const B3PrimaryGeneratorAction &right);
   B3PrimaryGeneratorAction(const B3PrimaryGeneratorAction&);
 
-  G4ParticleGun*         fParticleGun;
+  G4ParticleGun*         fParticleGun1;
+  G4ParticleGun*         fParticleGun2;
+  G4ThreeVector          fP1_position;
   
 };
 

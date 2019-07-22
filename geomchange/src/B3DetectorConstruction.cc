@@ -73,7 +73,7 @@ B3DetectorConstruction::B3DetectorConstruction(B3PrimaryGeneratorAction* p)
   fPrimaryGenerator(p) //order of these must follow the order listed in B3DetectorConstruction.hh
 {
   DefineMaterials();
-  fCylRadius = 10*mm;
+  fCylRadius = 20*mm;
   DefineCommands();
 }
 
@@ -145,12 +145,15 @@ G4VPhysicalVolume* B3DetectorConstruction::Construct()
   //Since I am changing the phantom dimensions, I want the source to remain at the same 
   //relative position within my phantom. I am required to make use of a function within 
   // my PrimarGeneratorAction class.
+  
   G4double source_radius = 0.4*fCylRadius;
-  G4double x0 = G4RandFlat::shoot((-source_radius-1)*mm, (-source_radius+1)*mm); 
-  G4double y0 = G4RandFlat::shoot((source_radius-1)*mm, (source_radius+1)*mm);
-  G4double z0 = G4RandFlat::shoot(-3*mm, 3*mm); 
+  G4double x0 = -source_radius;
+  G4double y0 = source_radius;
+  G4double z0 = 0; 
   G4ThreeVector source_position = G4ThreeVector(x0,y0,z0);
+
   fPrimaryGenerator->SetPosition(source_position);
+  
 
 
   //Defining the Detector Ring parameters
@@ -362,8 +365,8 @@ void B3DetectorConstruction::ConstructSDandField()
 
 void B3DetectorConstruction::SetCylinderRadius(G4double val)
 {
-  fCylRadius = val;
   G4RunManager::GetRunManager()->GeometryHasBeenModified();
+  fCylRadius = val;
 }  
 
 void B3DetectorConstruction::DefineCommands()

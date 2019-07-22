@@ -78,7 +78,10 @@ int main(int argc,char** argv)
 
   // Set user action classes
   //
+  runManager->SetUserAction(gun);
   runManager->SetUserInitialization(new B3bActionInitialization());
+
+  
 
   G4VisManager* visManager = new G4VisExecutive;
   visManager->Initialize();
