@@ -1,0 +1,131 @@
+#
+# Macro file of "exampleB3.cc"
+#
+# Change the default number of workers (in multi-threading mode) 
+#/run/numberOfWorkers 4
+#
+# Initialize kernel
+/run/initialize
+
+/geomchange/update/cylR 10. mm
+/run/beamOn 100000
+/geomchange/update/cylR 11. mm
+/run/beamOn 100000
+/geomchange/update/cylR 12. mm
+/run/beamOn 100000
+/geomchange/update/cylR 13. mm
+/run/beamOn 100000
+/geomchange/update/cylR 14. mm
+/run/beamOn 100000
+/geomchange/update/cylR 15. mm
+/run/beamOn 100000
+/geomchange/update/cylR 16. mm
+/run/beamOn 100000
+/geomchange/update/cylR 17. mm
+/run/beamOn 100000
+/geomchange/update/cylR 18. mm
+/run/beamOn 100000
+/geomchange/update/cylR 19. mm
+/run/beamOn 100000
+/geomchange/update/cylR 20. mm
+/run/beamOn 100000
+/geomchange/update/cylR 21. mm
+/run/beamOn 100000
+/geomchange/update/cylR 22. mm
+/run/beamOn 100000
+/geomchange/update/cylR 23. mm
+/run/beamOn 100000
+/geomchange/update/cylR 24. mm
+/run/beamOn 100000
+/geomchange/update/cylR 25. mm
+/run/beamOn 100000
+/geomchange/update/cylR 26. mm
+/run/beamOn 100000
+/geomchange/update/cylR 27. mm
+/run/beamOn 100000
+/geomchange/update/cylR 28. mm
+/run/beamOn 100000
+/geomchange/update/cylR 29. mm
+/run/beamOn 100000
+/geomchange/update/cylR 30. mm
+/run/beamOn 100000
+/geomchange/update/cylR 31. mm
+/run/beamOn 100000
+/geomchange/update/cylR 32. mm
+/run/beamOn 100000
+/geomchange/update/cylR 33. mm
+/run/beamOn 100000
+/geomchange/update/cylR 34. mm
+/run/beamOn 100000
+/geomchange/update/cylR 35. mm
+/run/beamOn 100000
+/geomchange/update/cylR 36. mm
+/run/beamOn 100000
+/geomchange/update/cylR 37. mm
+/run/beamOn 100000
+/geomchange/update/cylR 38. mm
+/run/beamOn 100000
+/geomchange/update/cylR 39. mm
+/run/beamOn 100000
+/geomchange/update/cylR 40. mm
+/run/beamOn 100000
+/geomchange/update/cylR 41. mm
+/run/beamOn 100000
+/geomchange/update/cylR 42. mm
+/run/beamOn 100000
+/geomchange/update/cylR 43. mm
+/run/beamOn 100000
+/geomchange/update/cylR 44. mm
+/run/beamOn 100000
+/geomchange/update/cylR 45. mm
+/run/beamOn 100000
+/geomchange/update/cylR 46. mm
+/run/beamOn 100000
+/geomchange/update/cylR 47. mm
+/run/beamOn 100000
+/geomchange/update/cylR 48. mm
+/run/beamOn 100000
+/geomchange/update/cylR 49. mm
+/run/beamOn 100000
+/geomchange/update/cylR 50. mm
+/run/beamOn 100000
+/geomchange/update/cylR 51. mm
+/run/beamOn 100000
+/geomchange/update/cylR 52. mm
+/run/beamOn 100000
+/geomchange/update/cylR 53. mm
+/run/beamOn 100000
+/geomchange/update/cylR 54. mm
+/run/beamOn 100000
+/geomchange/update/cylR 55. mm
+/run/beamOn 100000
+/geomchange/update/cylR 56. mm
+/run/beamOn 100000
+/geomchange/update/cylR 57. mm
+/run/beamOn 100000
+/geomchange/update/cylR 58. mm
+/run/beamOn 100000
+/geomchange/update/cylR 59. mm
+/run/beamOn 100000
+/geomchange/update/cylR 60. mm
+/run/beamOn 100000
+/geomchange/update/cylR 61. mm
+/run/beamOn 100000
+/geomchange/update/cylR 62. mm
+/run/beamOn 100000
+/geomchange/update/cylR 63. mm
+/run/beamOn 100000
+/geomchange/update/cylR 64. mm
+/run/beamOn 100000
+/geomchange/update/cylR 65. mm
+/run/beamOn 100000
+/geomchange/update/cylR 66. mm
+/run/beamOn 100000
+/geomchange/update/cylR 67. mm
+/run/beamOn 100000
+/geomchange/update/cylR 68. mm
+/run/beamOn 100000
+/geomchange/update/cylR 69. mm
+/run/beamOn 100000
+/geomchange/update/cylR 70. mm
+/run/beamOn 100000
