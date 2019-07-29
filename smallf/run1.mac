@@ -1,0 +1,59 @@
+#
+# Macro file of "exampleB3.cc"
+#
+# Change the default number of workers (in multi-threading mode) 
+#/run/numberOfWorkers 4
+#
+# Initialize kernel
+/run/initialize
+
+/run/beamOn 200000
+/run/beamOn 400000
+/run/beamOn 600000
+/run/beamOn 800000
+/run/beamOn 1000000
+/run/beamOn 1200000
+/run/beamOn 1400000
+/run/beamOn 1600000
+/run/beamOn 1800000
+/run/beamOn 2000000
+/run/beamOn 2200000
+/run/beamOn 2400000
+/run/beamOn 2600000
+/run/beamOn 2800000
+/run/beamOn 3000000
+/run/beamOn 3200000
+/run/beamOn 3400000
+/run/beamOn 3600000
+/run/beamOn 3800000
+/run/beamOn 4000000
+/run/beamOn 4200000
+/run/beamOn 4400000
+/run/beamOn 4600000
+/run/beamOn 4800000
+/run/beamOn 5000000
+/run/beamOn 5200000
+/run/beamOn 5400000
+/run/beamOn 5600000
+/run/beamOn 5800000
+/run/beamOn 6000000
+/run/beamOn 6200000
+/run/beamOn 6400000
+/run/beamOn 6600000
+/run/beamOn 6800000
+/run/beamOn 7000000
+/run/beamOn 7200000
+/run/beamOn 7400000
+/run/beamOn 7600000
+/run/beamOn 7800000
+/run/beamOn 8000000
+/run/beamOn 8200000
+/run/beamOn 8400000
+/run/beamOn 8600000
+/run/beamOn 8800000
+/run/beamOn 9000000
+/run/beamOn 9200000
+/run/beamOn 9400000
+/run/beamOn 9600000
+/run/beamOn 9800000
+/run/beamOn 10000000
