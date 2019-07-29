@@ -1,0 +1,69 @@
+#
+# Macro file of "exampleB3.cc"
+#
+# Change the default number of workers (in multithreading mode) 
+#/run/numberOfWorkers 4
+#
+# Initialize kernel
+/run/initialize
+
+
+/geomchange/update/axlR 9 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR 8 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR 7 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR 6 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR 5 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR 4 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR 3 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR 2 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR 1 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR 0 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR -9 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR -8 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR -7 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR -6 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR -5 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR -4 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR -3 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR -2 mm
+/run/beamOn 10000
+
+/geomchange/update/axlR -1 mm
+/run/beamOn 10000
+
+
+
